@@ -69,3 +69,5 @@ Ques - What is a GitHub gpg key? Why it is used? Also, tell that why we need to 
 - Github gpg key is one of the key (public key) from a gpg key pair. Github uses it in the signature verfication of the user. Not only github but if someone has our public key id, they can import it and verify if the commit is a good or a bad commit.
 - As we can see when we change file directly on github, we get a verified badge. Using gpg key pair we can get this badge from the command line itself.(When we commit with a gpg private key and push it to the remote repo then Guthub verfies it with our public private key).
 - We need to sign our commits to make sure that the changes are coming from valid user.
+
+1
